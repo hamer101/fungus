@@ -2,8 +2,8 @@ from sklearn import ensemble
 from sklearn import svm
 from sklearn.pipeline import Pipeline
 
-from pipeline.bow import BagOfWordsTransformer
-from pipeline.fisher_vector_transformer import FisherVectorTransformer
+from fungus.pipeline.bow import BagOfWordsTransformer
+from fungus.pipeline.fisher_vector_transformer import FisherVectorTransformer
 
 pipelines = dict()
 
